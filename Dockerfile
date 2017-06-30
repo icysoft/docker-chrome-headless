@@ -7,7 +7,7 @@ LABEL maintainer="jeremy@icysoft.fr"
 
 RUN apt-get update --fix-missing \
   && apt-get -qqy upgrade \
-  && apt-get install -qqy sudo curl wget unzip git
+  && apt-get install -qqy sudo curl wget unzip git awscli
 
 ## NODEJS 6 ##
 ## ======== ##
